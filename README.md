@@ -12,6 +12,10 @@ To Develop a python program to Plot a time series data (population/ market price
 5. Display the graph.
 # PROGRAM:
 ```python
+DEVELOPED BY: RAMA E.K. LEKSHMI
+REGISTER NUMBER: 212222240082
+```
+```python
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
