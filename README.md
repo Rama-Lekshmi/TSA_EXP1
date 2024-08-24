@@ -1,5 +1,8 @@
+### NAME:  RAMA E.K. LEKSHMI
+### REGISTER NUMBER: 212222240082
+###  DATE: 
 # Ex.No: 01A PLOT A TIME SERIES DATA
-###  Date: 
+
 
 # AIM:
 To Develop a python program to Plot a time series data (population/ market price of a commodity
@@ -62,10 +65,7 @@ plt.title("Average Monthly Number of Passengers (1949-1960)")
 plt.grid(True)
 plt.show()
 ```
-Calculate the 12-month moving average
-```python
-moving_avg_12 = df_filtered['#Passengers'].rolling(window=12).mean()
-```
+
 Plot the original data with the 12-month moving average
 ```python
 plt.figure(figsize=(10, 6))
@@ -120,8 +120,6 @@ print(correlation_matrix)
 ![2652045a-60df-49df-b334-6c845c2be0a8](https://github.com/user-attachments/assets/89af29cd-2221-4524-a311-e14d2752feb9)
 
 ![025a207e-c0cf-4898-a903-71d71361ccde](https://github.com/user-attachments/assets/2e4a5878-4327-422b-babf-4c4ea43b7047)
-
-![fe14f095-de43-4ada-8c50-41dd17284041](https://github.com/user-attachments/assets/f5649038-d742-46d6-a4d7-7a5b1e72cd5f)
 
 ![12f5667d-119e-40cb-8c9e-ac1a090b165a](https://github.com/user-attachments/assets/aa6ef876-7a12-41dd-8bec-497fea4e28c3)
 
