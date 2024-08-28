@@ -74,7 +74,7 @@ plt.show()
 
 
 # RESULT:
-Thus we have created the python code for plotting the time series of given data.
+Thus  a time series plot of the air passenger data is successfully generated , visualizing monthly passenger counts over time with appropriate labels, title, and gridlines.
 
 
 
