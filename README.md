@@ -7,11 +7,19 @@
 # AIM:
 To Develop a python program to Plot a time series data (Air Passenger Data)
 # ALGORITHM:
-1. Import the required packages like pandas and matplot
-2. Read the dataset using the pandas
-3. Calculate the mean for the respective column.
-4. Plot the data according to need and can be altered monthly, or yearly.
-5. Display the graph.
+
+1. Import Libraries: Import necessary libraries such as pandas, matplotlib.pyplot, and numpy.
+
+2. Load Data: Read the air passenger data into a pandas DataFrame from a CSV file or other sources.
+
+3. Preprocess Data: Convert the date column to datetime format and set it as the DataFrame index.
+
+4. Plot Data: Use plt.plot() to plot the time series data, showing the number of passengers over time.
+
+5. Customize Plot: Add labels, a title, and gridlines using plt.xlabel(), plt.ylabel(), plt.title(), and plt.grid().
+
+6. Show Plot: Display the plot using plt.show().
+
 # PROGRAM:
 ```python
 DEVELOPED BY: RAMA E.K. LEKSHMI
